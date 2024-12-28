@@ -126,5 +126,5 @@ These metrics guide platform growth by aligning with business objectives:
 
 ## Contact
 For business inquiries or collaboration opportunities:
-- **Email:** your-email@example.com
+- **Email:** hellotakreem@gmail.com
 - **Portfolio:** [Your Portfolio](https://takku-123.github.io/Portfolio/)
