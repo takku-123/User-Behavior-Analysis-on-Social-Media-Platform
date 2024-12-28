@@ -100,8 +100,6 @@ Input features were scaled, and the data was split into training and test sets t
 #### 4.4 **Model Training and Validation**
 The model was trained using a **10-fold cross-validation** approach. Performance metrics such as accuracy and Kappa statistics confirmed that the k-NN model achieved over 97% accuracy in classifying users into clusters.
 
-![Confusion Matrix](images/confusion_matrix.png)
-
 #### 4.5 **Evaluation Metrics**
 The model's predictive performance was evaluated using:
 - **Accuracy**: The overall performance of the model was above 97%.
