@@ -14,7 +14,7 @@ This report aims to solve this challenge by:
 - Conducting cluster analysis to identify distinct groups within the user base.
 - Developing a predictive model to forecast user behaviors and inform strategic decisions.
 
-  <img src="images/workflow.png" alt="Workflow" width="400" />
+  <img src="images/workflow.png" alt="Workflow" width="700" />
 
 ### 2. **Data Exploration and Preprocessing**
 
