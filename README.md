@@ -29,7 +29,7 @@ The dataset used for this analysis contains data from 2,307 users, with 13 varia
 #### 2.2 **Outlier Detection and Treatment**
 Several outliers were detected using boxplots, particularly in **TotalPosts**, **MeanWordCount**, and **LikeRate**. These outliers represent highly influential users and may skew the overall analysis if treated the same as typical users. As such, these values were handled appropriately to ensure the clustering model is not adversely impacted.
 
-<img src="images/outlier_detection.png" alt="Outlier Detection" width="400" />
+<img src="images/outlier_detection.png" alt="Outlier Detection" width="500" />
 
 #### 2.3 **Histograms**
 The distribution of variables like **TotalPosts** and **MeanWordCount** show right-skewed distributions, indicating that most users have few posts and shorter content. This suggests a small portion of users are highly active, while the majority are more passive. 
@@ -41,15 +41,15 @@ The **Correlation Matrix** revealed important relationships:
 - A strong positive correlation (0.989) between **InDegree** and **OutDegree**, indicating that users with higher interaction levels tend to post more frequently.
 - A moderate correlation between **MeanPostsPerThread** and **TotalPosts**, suggesting that frequent posters also tend to contribute more posts within threads.
 
-<img src="images/correlation_matrix.png" alt="Correlation Matrix" width="600" />
+<img src="images/correlation_matrix.png" alt="Correlation Matrix" width="400" />
 
 #### 2.5 **Relationship Visualizations**
 Several relationship visualizations were created to explore patterns:
 - **User Activity Over Account Age**: Most users have low engagement, though a few outliers show extremely high engagement. 
 - **Total Posts vs Like Rate**: Users with fewer posts generally receive more likes per post, indicating that less frequent posts are more likely to be appreciated.
 
-<img src="images/activity_account_age.png" alt="User Activity Over Account Age" width="600" />
-<img src="images/Word_Count.png" alt="Impact of Word Count on Engagement" width="600" />
+<img src="images/activity_account_age.png" alt="User Activity Over Account Age" width="300" />
+<img src="images/Word_Count.png" alt="Impact of Word Count on Engagement" width="300" />
 
 ### 3. **Cluster Analysis**
 
@@ -61,13 +61,13 @@ To ensure the accuracy of the clustering results, various preprocessing techniqu
 - **Outlier removal**: Outliers were identified and removed using the Interquartile Range (IQR) method.
 - **Feature Engineering**: New indices like **ContentEngagementScore** and **ActiveContributionIndex** were created to combine multiple related features into single metrics that better capture user behavior.
 
-<img src="images/feature_engineering.png" alt="Feature Engineering Indices" width="600" />
+<img src="images/feature_engineering.png" alt="Feature Engineering Indices" width="200" />
 
 #### 3.3 **Determining the Number of Clusters**
 The **Elbow Method** and **Silhouette Plot** were used to determine the optimal number of clusters. The analysis suggested that seven clusters would provide the best fit for this dataset, balancing model complexity and data representativeness.
 
-<img src="images/elbow_method.png" alt="Elbow Method" width="600" />
-<img src="images/silhouette_plot.png" alt="Silhouette Plot" width="600" />
+<img src="images/elbow_method.png" alt="Elbow Method" width="200" />
+<img src="images/silhouette_plot.png" alt="Silhouette Plot" width="200" />
 
 #### 3.4 **Model Execution**
 With the optimal number of clusters determined, the K-means algorithm was run, and the results visualized. Each cluster represents a distinct user behavior profile, from highly engaged users to passive ones.
@@ -87,7 +87,7 @@ The following describes the characteristics of each of the seven identified clus
 #### 3.6 **Insights and Implications**
 Each cluster provides valuable insights into user behavior that can inform targeted marketing and content strategies. For instance, users in **Cluster 1** and **Cluster 6** could be prime candidates for influencer partnerships or brand ambassador roles, while users in **Cluster 3** and **Cluster 4** may need content strategies aimed at increasing engagement.
 
-<img src="images/recommendations.png" alt="Recommendations" width="600" />
+<img src="images/recommendations.png" alt="Recommendations" width="200" />
 
 ### 4. **Supervised Learning Model**
 
