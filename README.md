@@ -63,13 +63,15 @@ To ensure the accuracy of the clustering results, various preprocessing techniqu
 - **Outlier removal**: Outliers were identified and removed using the Interquartile Range (IQR) method.
 - **Feature Engineering**: New indices like **ContentEngagementScore** and **ActiveContributionIndex** were created to combine multiple related features into single metrics that better capture user behavior.
 
-<img src="images/feature_engineering.png" alt="Feature Engineering Indices" width="200" />
+<img src="images/feature_engineering.png" alt="Feature Engineering Indices" width="500" />
 
 #### 3.3 **Determining the Number of Clusters**
 The **Elbow Method** and **Silhouette Plot** were used to determine the optimal number of clusters. The analysis suggested that seven clusters would provide the best fit for this dataset, balancing model complexity and data representativeness.
 
+<div style="display: flex; gap: 10px;">
 <img src="images/elbow_method.png" alt="Elbow Method" width="200" />
 <img src="images/silhouette_plot.png" alt="Silhouette Plot" width="200" />
+</div>
 
 #### 3.4 **Model Execution**
 With the optimal number of clusters determined, the K-means algorithm was run, and the results visualized. Each cluster represents a distinct user behavior profile, from highly engaged users to passive ones.
