@@ -29,7 +29,7 @@ The dataset used for this analysis contains data from 2,307 users, with 13 varia
 #### 2.2 **Outlier Detection and Treatment**
 Several outliers were detected using boxplots, particularly in **TotalPosts**, **MeanWordCount**, and **LikeRate**. These outliers represent highly influential users and may skew the overall analysis if treated the same as typical users. As such, these values were handled appropriately to ensure the clustering model is not adversely impacted.
 
-<img src="images/outlier_detection.png" alt="Outlier Detection" width="600" />
+<img src="images/outlier_detection.png" alt="Outlier Detection" width="400" />
 
 #### 2.3 **Histograms**
 The distribution of variables like **TotalPosts** and **MeanWordCount** show right-skewed distributions, indicating that most users have few posts and shorter content. This suggests a small portion of users are highly active, while the majority are more passive. 
