@@ -27,7 +27,7 @@ The dataset used for this analysis contains data from 2,307 users, with 13 varia
 - **AccountAge**: The age of the account in days.
 
 
-<img src="images/dataset_description.png" alt="dataset description" width="600" />
+<img src="images/dataset_description.png" alt="dataset description" width="300" />
 
 #### 2.2 **Outlier Detection and Treatment**
 Several outliers were detected using boxplots, particularly in **TotalPosts**, **MeanWordCount**, and **LikeRate**. These outliers represent highly influential users and may skew the overall analysis if treated the same as typical users. As such, these values were handled appropriately to ensure the clustering model is not adversely impacted.
