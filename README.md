@@ -41,7 +41,7 @@ The **Correlation Matrix** revealed important relationships:
 - A strong positive correlation (0.989) between **InDegree** and **OutDegree**, indicating that users with higher interaction levels tend to post more frequently.
 - A moderate correlation between **MeanPostsPerThread** and **TotalPosts**, suggesting that frequent posters also tend to contribute more posts within threads.
 
-<img src="images/correlation_matrix.png" alt="Correlation Matrix" width="400" />
+<img src="images/correlation_matrix.png" alt="Correlation Matrix" width="500" />
 
 #### 2.5 **Relationship Visualizations**
 Several relationship visualizations were created to explore patterns:
