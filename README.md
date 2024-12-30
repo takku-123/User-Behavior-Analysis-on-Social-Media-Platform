@@ -49,7 +49,6 @@ Several relationship visualizations were created to explore patterns:
 - **Total Posts vs Like Rate**: Users with fewer posts generally receive more likes per post, indicating that less frequent posts are more likely to be appreciated.
 
 ![User Activity Over Account Age](images/activity_account_age.png)
-![Impact of Word Count On Engagement](images/Word_Count.png)
 
 ### 3. **Cluster Analysis**
 
