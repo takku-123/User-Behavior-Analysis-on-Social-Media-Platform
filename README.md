@@ -14,6 +14,8 @@ This report aims to solve this challenge by:
 - Conducting cluster analysis to identify distinct groups within the user base.
 - Developing a predictive model to forecast user behaviors and inform strategic decisions.
 
+  <img src="images/outlier_detection.png" alt="workflow" width="400" />
+
 ### 2. **Data Exploration and Preprocessing**
 
 #### 2.1 **Dataset Description**
