@@ -37,7 +37,7 @@ The distribution of variables like **TotalPosts** and **MeanWordCount** show rig
 ![Histograms of Key Variables](images/histograms.png)
 
 #### 2.4 **Correlation Matrix**
-The **Correlation Matrix** revealed important relationships:
+0The **Correlation Matrix** revealed important relationships:
 - A strong positive correlation (0.989) between **InDegree** and **OutDegree**, indicating that users with higher interaction levels tend to post more frequently.
 - A moderate correlation between **MeanPostsPerThread** and **TotalPosts**, suggesting that frequent posters also tend to contribute more posts within threads.
 
