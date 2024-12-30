@@ -87,7 +87,7 @@ The following describes the characteristics of each of the seven identified clus
 #### 3.6 **Insights and Implications**
 Each cluster provides valuable insights into user behavior that can inform targeted marketing and content strategies. For instance, users in **Cluster 1** and **Cluster 6** could be prime candidates for influencer partnerships or brand ambassador roles, while users in **Cluster 3** and **Cluster 4** may need content strategies aimed at increasing engagement.
 
-<img src="images/recommendations.png" alt="Recommendations" width="200" />
+<img src="images/recommendations.png" alt="Recommendations" width="500" />
 
 ### 4. **Supervised Learning Model**
 
