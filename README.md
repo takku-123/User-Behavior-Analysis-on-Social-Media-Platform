@@ -48,8 +48,10 @@ Several relationship visualizations were created to explore patterns:
 - **User Activity Over Account Age**: Most users have low engagement, though a few outliers show extremely high engagement. 
 - **Total Posts vs Like Rate**: Users with fewer posts generally receive more likes per post, indicating that less frequent posts are more likely to be appreciated.
 
-<img src="images/activity_account_age.png" alt="User Activity Over Account Age" width="300" />
-<img src="images/Word_Count.png" alt="Impact of Word Count on Engagement" width="300" />
+<div style="display: flex; gap: 10px;">
+  <img src="images/activity_account_age.png" alt="User Activity Over Account Age" width="300" />
+  <img src="images/Word_Count.png" alt="Impact of Word Count on Engagement" width="300" />
+</div>
 
 ### 3. **Cluster Analysis**
 
