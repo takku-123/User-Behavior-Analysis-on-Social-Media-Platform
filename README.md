@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive business analysis report aimed at understanding user behavior on the platform of Company Z, a rapidly expanding social media company. The primary objective is to leverage data-driven insights to develop strategies that enhance user engagement, retention, and overall platform growth.
 
-The report outlines a structured analysis approach, consisting of data exploration, preprocessing, clustering analysis, and the development of a predictive model. The insights generated from these processes are intended to guide marketing strategies, content creation, and platform management by identifying distinct user segments based on their interaction patterns.
+It outlines a structured analysis approach, consisting of data exploration, preprocessing, clustering analysis, and the development of a predictive model. The insights generated from these processes are intended to guide marketing strategies, content creation, and platform management by identifying distinct user segments based on their interaction patterns.
 
 ## Key Sections
 
