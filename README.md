@@ -53,7 +53,6 @@ Several relationship visualizations were created to explore patterns:
 
 <div style="display: flex; gap: 10px;">
   <img src="images/activity_account_age.png" alt="User Activity Over Account Age" width="300" />
-  <img src="images/Word_Count.png" alt="Impact of Word Count on Engagement" width="300" />
 </div>
 
 ### 3. **Cluster Analysis**
